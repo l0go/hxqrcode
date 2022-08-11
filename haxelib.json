@@ -1,5 +1,5 @@
 {
-	"name": "qrcode-generator",
+	"name": "hxqrcode",
 	"tags": [
 		"qrcode-generator",
 		"externs",
@@ -10,6 +10,7 @@
 	"contributors": [
 		"logo4poop"
 	],
+	"classPath": "src",
 	"dependencies": {},
 	"version": "1.4.4"
 }
