@@ -1,0 +1,15 @@
+{
+	"name": "qrcode-generator",
+	"tags": [
+		"qrcode-generator",
+		"externs",
+		"typescript",
+		"javascript"
+	],
+	"description": "Externs for qrcode-generator v1.4.4",
+	"contributors": [
+		"logo4poop"
+	],
+	"dependencies": {},
+	"version": "1.4.4"
+}
