@@ -3,7 +3,7 @@ package hxqrcode;
 typedef QRCode = {
 	function addData(data:String, ?mode:Mode):Void;
 	function make():Void;
-	function getModuleCount():Float;
+	function getModuleCount():Int;
 	function isDark(row:Float, col:Float):Bool;
 	function createImgTag(?cellSize:Float, ?margin:Float):String;
 	@:overload(function(?opts:{ @:optional var cellSize : Float; @:optional var margin : Float; @:optional var scalable : Bool; }):String { })

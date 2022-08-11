@@ -1,6 +1,7 @@
 package hxqrcode.encoder;
 
-import hxqrcode.*;
+import hxqrcode.ErrorCorrectionLevel;
+import hxqrcode.QrcodeGeneratorGlobal;
 
 /**
  * https://www.npmjs.com/package/qrcode-generator
@@ -15,7 +16,7 @@ class JsEncoder {
 	}
 	
 	public function encode(text:String):Data {
-		var qr = QrcodeGeneratorGlobal.qrcode(0, errorCorrectionLevel);
+		var qr = QrcodeGeneratorGlobal.qrcode.call(0, errorCorrectionLevel);
 		qr.addData(text);
 		qr.make();
 		var count = qr.getModuleCount();

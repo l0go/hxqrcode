@@ -1,5 +1,7 @@
 package hxqrcode;
 
+import hxqrcode.ErrorCorrectionLevel;
+
 typedef QRCodeFactory = {
 	@:selfCall
 	function call(typeNumber:TypeNumber, errorCorrectionLevel:ErrorCorrectionLevel):QRCode;

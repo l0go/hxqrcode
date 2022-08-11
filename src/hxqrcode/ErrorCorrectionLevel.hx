@@ -1,6 +1,6 @@
 package hxqrcode;
 
-private enum abstract ErrorCorrectionLevel(String) {
+enum abstract ErrorCorrectionLevel(String) {
 	var L = 'L';
 	var M = 'M';
 	var Q = 'Q';
