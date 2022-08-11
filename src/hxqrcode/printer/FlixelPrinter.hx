@@ -25,6 +25,8 @@ class FlixelPrinter implements Printer<FlxSprite> {
 		var size = data.size;
 
 		var bg = new FlxSprite();
+		bg.makeGraphic(blockSize, blockSize, backgroundColor, true);
+		bg.scale.x = bg.scale.y = (size + margin * 2);
 
 		var bitmapData = new BitmapData(size, size);
 		bitmapData.lock();
